@@ -4,7 +4,7 @@
 ## 💻 Project
 React App for Planets visualization and Spatial Missions information display.
 
-## 🚀 Build With
+## 🚀 Built With
 
 > [![Javascript][Javascript]][Javascript-url][![React][React.js]][React-url]
 
@@ -14,25 +14,21 @@ React App for Planets visualization and Spatial Missions information display.
 - Rendering React Components from Array of Objects;
 - Props and PropType validation;
 
-## ⬇️ Instalando dependências
+## Getting Started
+
+### ⬇️ Dependencies
 
 ```bash
 npm install
 ``` 
 
-## ⚡ Executando a aplicação
+### ⚡ Running the Aplication
 
 ```bash
 npm start
 ``` 
 
-## 🧪 Executando os testes
-
-```bash
-npm test
-```
-
-## 💬 Contatos
+## 💬 Contact Me
 
 <div align="center" style="display: inline_block">
   <a href="https://arthur-debiasi.github.io" target="_blank"><img height="28rem" src="https://img.shields.io/badge/my_portfolio-3fc337?style=for-the-badge" target="_blank"></a> 
