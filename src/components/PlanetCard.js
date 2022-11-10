@@ -8,7 +8,7 @@ export default class PlanetCard extends Component {
 		const { props: { planetName, planetImage } } = this;
 		return (
 			<Stack direction='column' data-testid="planet-card">
-				<Typography variant='h6'data-testid="planet-name">{ planetName }</Typography>
+				<Typography variant='h4'data-testid="planet-name">{ planetName }</Typography>
 				<img width='150px' src={ planetImage } alt={ `Planeta ${planetName}` } />
 			</Stack>
 		); // arthurdebiasicopyright
