@@ -1,7 +1,6 @@
 {
   "name": "solar-system",
   "version": "0.1.0",
-  "homepage": "https://arthur-debiasi.github.io/solar-system",
   "private": true,
   "engines": {
     "node": "16"
@@ -21,8 +20,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build",
     "test": "react-scripts test",
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
