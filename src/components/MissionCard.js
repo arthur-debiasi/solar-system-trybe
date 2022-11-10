@@ -6,14 +6,14 @@ export default class MissionCard extends Component {
 	render() {
 		const { name, year, country, destination } = this.props;
 		return (
-			<Card variant="outlined" data-testid="mission-card" sx={{ textAlign: 'center', maxWidth: '200px', minWidth: '150px' }}>
-				<Typography variant="p" data-testid="mission-name">{ name }</Typography>
+			<Card variant="outlined" data-testid="mission-card" sx={{ textAlign: 'center', maxWidth: '200px', minWidth: '160px' }}>
+				<Typography variant="h5" data-testid="mission-name">{ name }</Typography>
 				<Divider />
-				<Typography variant="p" data-testid="mission-year">{ year }</Typography>
+				<Typography color="lightgray" variant="p" data-testid="mission-year">{ year }</Typography>
 				<Divider />
-				<Typography variant="p" data-testid="mission-country">{ country }</Typography>
+				<Typography color="lightgray" variant="p" data-testid="mission-country">{ country }</Typography>
 				<Divider />
-				<Typography variant="p" data-testid="mission-destination">{ destination }</Typography>
+				<Typography color="lightgray" variant="p" data-testid="mission-destination">{ destination }</Typography>
 			</Card>
 		);
 	}
