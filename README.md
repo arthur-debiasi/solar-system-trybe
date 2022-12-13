@@ -1,5 +1,5 @@
-# Solar System
-[Trybe](https://www.betrybe.com/) Project - Solar System React App about Planets and Missions.
+# [Trybe](https://www.betrybe.com/) Project - Solar System 
+React App about Planets and Missions.
 
 ## 💻 Project
 React App for Planets visualization and Spatial Missions information display.
